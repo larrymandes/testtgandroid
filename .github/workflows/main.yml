@@ -35,5 +35,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Telegram-Android-APK
-          path: TMessagesProj_App/build/outputs/apk/afat/debug/*.apk
+          path: TMessagesProj_App/build/outputs/apk/**/*.apk
           if-no-files-found: error
